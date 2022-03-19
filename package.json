@@ -1,0 +1,25 @@
+{
+  "name": "mosaic-react",
+  "version": "0.0.1",
+  "description": "Mosaic react application for making no-code web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaic-web/mosaic-react.git"
+  },
+  "keywords": [
+    "no-code",
+    "react",
+    "web",
+    "mosaic"
+  ],
+  "author": "Oleh Kutsenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mosaic-web/mosaic-react/issues"
+  },
+  "homepage": "https://github.com/mosaic-web/mosaic-react#readme"
+}
