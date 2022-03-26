@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "declaration": true,
+    "outDir": "lib",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "src/**/*.test.ts"
+  ]
+}
