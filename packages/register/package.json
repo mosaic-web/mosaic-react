@@ -1,0 +1,36 @@
+{
+  "name": "@mosaic-web/register",
+  "version": "0.0.1",
+  "description": "Mosaic component register for local and external modules",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc -b",
+    "prepublish": "npm run test-coverage && npm run clean && npm run build",
+    "test-coverage": "npm run test -- --collectCoverage",
+    "test": "jest --config ../../jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaic-web/mosaic-react.git"
+  },
+  "keywords": [
+    "mosaic-web",
+    "react",
+    "register",
+    "components"
+  ],
+  "author": "Oleh Kutsenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mosaic-web/mosaic-react/issues"
+  },
+  "homepage": "https://github.com/mosaic-web/mosaic-react#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.41"
+  }
+}
