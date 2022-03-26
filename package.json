@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-coverage": "jest --coverage",
     "lint": "eslint --ext ts,tsx .",
     "prepare": "husky install"
   },
